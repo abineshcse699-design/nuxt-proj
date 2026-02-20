@@ -1,0 +1,32 @@
+.input-wrapper {
+  @apply w-full;
+}
+
+.input-wrapper__label {
+  @apply mb-2 block text-sm font-medium leading-6 text-gray-600;
+}
+
+.input-wrapper__input {
+  @apply block w-full rounded-md border-0 px-2 py-1.5 
+    text-gray-900 shadow-sm ring-1 ring-inset 
+    ring-gray-300 placeholder:text-gray-400
+    focus:ring-2 focus:ring-inset focus:ring-indigo-600 
+    sm:text-sm sm:leading-6;
+}
+
+.input-wrapper__input--clearable {
+  @apply pr-8;
+}
+
+.input-wrapper__input--error {
+  @apply ring-red-600;
+}
+
+.input-wrapper__clear {
+  @apply absolute right-0 top-1/2 -translate-y-1/2 
+    transform cursor-pointer p-2;
+}
+
+.input-wrapper__error-message {
+  @apply mt-2 text-sm text-red-600;
+}
