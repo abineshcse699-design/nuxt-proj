@@ -81,7 +81,7 @@ function clearInput() {
 </script>
 
 <style scoped>
-@import "@/components/Input/Input.css";
+@import "@/components/input/input.css";
 </style>
 
 
